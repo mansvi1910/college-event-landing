@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silver Oak Tech Summit 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-md fixed w-full z-20">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-indigo-600">Tech Summit 2026</h1>
+        <ul class="hidden md:flex space-x-8 font-medium">
+            <li><a href="#about" class="hover:text-indigo-600">About</a></li>
+            <li><a href="#schedule" class="hover:text-indigo-600">Schedule</a></li>
+            <li><a href="#highlights" class="hover:text-indigo-600">Highlights</a></li>
+            <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="h-screen flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center px-6">
+    <div>
+        <h2 class="text-4xl md:text-6xl font-bold mb-6">Silver Oak Tech Summit 2026</h2>
+        <p class="text-lg md:text-xl mb-4">Organized by B.Tech IT Department</p>
+        <p class="mb-6">April 15, 2026 | Ahmedabad</p>
+        <a href="#register" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+            Register Now
+        </a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">About The Event</h2>
+    <p class="text-lg max-w-3xl mx-auto">
+        Silver Oak Tech Summit 2026 is a premier college event bringing together
+        students, developers, designers, and entrepreneurs. The event includes
+        expert talks, technical workshops, networking sessions, and exciting competitions.
+    </p>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="bg-gray-100 py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Event Schedule</h2>
+
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row md:justify-between">
+                <p class="font-semibold">09:00 AM</p>
+                <p>Opening Ceremony</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row md:justify-between">
+                <p class="font-semibold">10:00 AM</p>
+                <p>Keynote Speech: Future of AI</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row md:justify-between">
+                <p class="font-semibold">12:00 PM</p>
+                <p>Technical Workshops</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row md:justify-between">
+                <p class="font-semibold">02:00 PM</p>
+                <p>Startup Pitch Competition</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Highlights Section -->
+<section id="highlights" class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-12">Event Highlights</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-md">
+            <h3 class="text-xl font-semibold mb-3">Expert Speakers</h3>
+            <p>Industry professionals sharing real-world insights.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-md">
+            <h3 class="text-xl font-semibold mb-3">Hands-on Workshops</h3>
+            <p>Practical sessions on AI, Web Development & UI/UX.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-md">
+            <h3 class="text-xl font-semibold mb-3">Networking</h3>
+            <p>Connect with students, startups, and tech experts.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Registration Section -->
+<section id="register" class="bg-indigo-600 text-white py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Join the Event</h2>
+    <p class="mb-8">Limited seats available. Register today!</p>
+    <button class="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+        Book Your Seat
+    </button>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+    <p>Email: techsummit@silveroakuni.ac.in</p>
+    <p>Phone: +91 98765 43210</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white text-center py-6">
+    <p>© 2026 Silver Oak Tech Summit. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
